@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nodux_auth *.css
+recursive-include nodux_auth *.csv
+recursive-include nodux_auth *.html
+recursive-include nodux_auth *.ico
+recursive-include nodux_auth *.js
+recursive-include nodux_auth *.json
+recursive-include nodux_auth *.md
+recursive-include nodux_auth *.png
+recursive-include nodux_auth *.py
+recursive-include nodux_auth *.svg
+recursive-include nodux_auth *.txt
+recursive-exclude nodux_auth *.pyc
